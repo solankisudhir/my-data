@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./slider.css">
+</head>
+<body>
+
+    <div class="box">
+        <img src="https://picsum.photos/id/137/1000/500" alt="">
+        <img src="https://picsum.photos/id/237/1000/500" alt="">
+        <img src="https://picsum.photos/id/337/1000/500" alt="">
+        <img src="https://picsum.photos/id/437/1000/500" alt="">
+         
+    </div>
+    <div class="btn">
+    <button onclick="goright()">prev</button>
+    <button onclick="goleft()">next</button>
+    </div>
+    <script>
+        const slides = document.querySelectorAll('img')
+        let count = 0
+        console.log(slides);
+         
+        
+        slides.forEach(
+            (img,index) => {
+                img.style.left = `${index * 100}%`
+            }
+        )
+
+        const slidesimg = () => {
+            slides.forEach(
+            (img) => {
+                img.style.transform = `translatex(${(count%4) * 100}%)`
+            }
+        )
+        }
+        const goright = () =>{
+            count++
+            slidesimg()
+        }
+        const goleft = () =>{
+            count--
+            slidesimg()
+        }
+    </script>
+    
+</body>
+</html>

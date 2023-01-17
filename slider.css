@@ -1,0 +1,19 @@
+.box{
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px red;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    position: absolute;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 10px 20px;
+    font-size: 15px;
+}
