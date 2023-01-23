@@ -1,0 +1,24 @@
+.container{
+    background-color: aqua;
+    
+}
+.box{
+    height: 50vh;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    animation-name: sudhir;
+    animation-duration:5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5;
+    animation-delay:5s;
+    animation-direction: alternate;
+}
+
+@keyframes sudhir{
+    from{
+        width: 300px;
+    }
+    to
+        width: 500px;
+}

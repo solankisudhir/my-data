@@ -1,0 +1,30 @@
+p{
+    font-family: sans-serif;
+}
+span{
+    font-family: serif;
+}
+h2{
+    font-family: monospace;
+}
+.px{
+    font-size: 34px;
+}
+.cm{
+    font-size: 2cm;
+}
+.em{
+    font-size: 3em
+}
+.rem{
+    font-size: 20rem;
+}
+.vh{
+    font-size: 42vh;
+}
+.pt{
+    font-size: 500%;
+}
+.wt{
+    font-size: 50px;
+}

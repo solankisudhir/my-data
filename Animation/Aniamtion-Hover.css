@@ -1,0 +1,36 @@
+.container{
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    border-radius: 20px;
+    /* transition: all 5s ease-in; */
+    transition: all 5s ease;
+    /* transition: all 5s ease-in-out; */
+    /* transition: all 5s ease-out; */
+
+
+}
+.box:hover{
+    /* transform: translate(500px) */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2); */
+    /* transform: rotate(45deg); */
+    /* transform: rotateX(360deg); */
+    /* transform: rotatey(360deg); */
+    /* transform: skew(300deg); */
+    /* transform: skewX(300deg); */
+    /* transform: skewy(360deg); */
+    /* transform: translate(210px); */
+    /* transform: translatex(36px); */
+    transform: translateY(50px);
+
+       
+}

@@ -1,0 +1,14 @@
+input:focus{
+   background-color: blueviolet;
+    outline: solid 3px red;
+}
+a:hover{
+  background-color: rgb(30, 220, 20);
+    font-size: 25px;
+}
+a:visited{
+    color: chartreuse;
+}
+a:active{
+    color: rgb(11, 11, 11);
+}

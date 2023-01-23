@@ -1,0 +1,43 @@
+.Text-color{
+    color: brown;
+}
+.Text-Alignment{
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: start;
+    text-align: end;
+    text-align: justify;
+}
+.Text-decoration{
+   text-decoration: underline;
+    color: rgb(0, 255, 38);
+
+}
+a{
+    text-decoration: none;
+}
+.text-transfoemation{
+    text-transform: uppercase;
+    /* text-transform: lowercase; */  
+}
+.Text-indentation{
+         text-indent: 40px;
+}
+.Word-spacing{
+    word-spacing: 50px;
+}
+.line-height{
+    line-height: 55px;
+}
+.text-direction{
+    direction: rtl;
+    /* direction: ltr; */
+    width: 300px;
+}
+.letter-spacing{
+    letter-spacing: 25px;
+}
+.text-shadow{
+    text-shadow: 2px 4px;
+}

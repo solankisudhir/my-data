@@ -1,0 +1,23 @@
+p::first-letter{
+    font-size: 20px;
+    color: crimson;
+}
+p::first-line{
+    font-size: 25px;
+    color: blue;
+
+}
+p::after{
+    content: ")";
+}
+p::before{
+    content:"(" ;
+}
+p::selection{
+    background-color: darkorange;
+    color: rgb(151, 165, 42);
+}
+
+      
+
+
