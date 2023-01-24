@@ -1,0 +1,27 @@
+.box{
+    border: 1px solid;
+    width: 900px;
+    margin:0 auto;
+    padding-left: 30px;
+    box-shadow:inset 5px 0px 20px rgb(233, 4, 4);
+    background-color: aqua;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+li{
+    font-size: 20px;
+}
+p:nth-child(2){
+    color: red;
+}
+p:nth-child(4){
+    color: rgb(255, 19, 255);
+}
+li:nth-child(3){
+    color: rgb(221, 156, 128);
+}
+li:nth-child(1){
+    color: rgb(221, 128, 193);
+}
