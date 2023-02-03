@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(175, 208, 208);
+}
+.container{
+    background-color: rgb(144, 157, 131);
+    width: 700px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+}
+input{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+}
+input[type=submit]{
+    width: 225px;
+
+}
+p{
+    color: red;
+}
