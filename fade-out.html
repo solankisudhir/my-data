@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 2px;
+            /* display: none; */
+
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: brown;
+        }
+        #box3{
+            background-color: chartreuse;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <button id="fade-btn">face-btn</button>
+
+    <script>
+        $('#fade-btn').click(function(){
+            $('#box1').fadeOut()
+            $('#box2').fadeOut('slow')
+            $('#box3').fadeOut(6000)
+        })
+    </script>
+    
+</body>
+</html>

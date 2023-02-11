@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        #box{
+            width: 900px;
+            border: 1px solid;
+            margin: 0 auto;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            padding: 6px 20px;
+        }
+        /* .bg{
+            color: rgb(227, 227, 227);
+            background-color: brown;
+            padding: 20px;
+        } */
+    </style>
+
+    <div id="box" class="bg">
+        <h1>Addclass</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem odio maxime ipsam? Fuga maxime non ipsa itaque provident, molestias, sint natus suscipit inventore incidunt assumenda praesentium consequuntur, cum doloribus.---</p>
+    </div>
+    <button id="has">hasclass</button>
+
+    <script>
+        $('#has').click(function () {
+           console.log( $('#box').hasClass('bg'))
+        })
+    </script>
+    
+</body>
+</html>
