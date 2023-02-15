@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    /* display: none; */
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: brown;
+}
+#box3{
+    background-color: chartreuse;
+}
