@@ -1,0 +1,8 @@
+div{
+    width: 60px;
+    height: 80px;
+    display: inline-block;
+    background: blue;
+    margin: 10px;
+    cursor: pointer;
+}
