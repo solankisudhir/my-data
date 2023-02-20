@@ -1,0 +1,10 @@
+#box{
+    width: 900px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+button{
+    display: block;
+    margin: 0 auto;
+        padding: 6px 20px;
+    }
