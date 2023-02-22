@@ -1,0 +1,13 @@
+#panel,#flip{
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: chartreuse;
+    color: white;
+    border: solid 2px #666;
+    border-radius: 5px;
+}
+#panel{
+    padding: 50px;
+    display: none;
+}
