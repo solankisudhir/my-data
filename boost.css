@@ -1,0 +1,10 @@
+.bgr{
+    background-color: orangered;
+    height: 600px;
+}
+.title li a:hover{
+    color: green;
+}
+.text{
+    margin: 100px;
+}
