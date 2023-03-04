@@ -1,0 +1,9 @@
+h2{
+    background-image: linear-gradient(green,rgb(108, 60, 38));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    background-clip: text;
+   
+    
+}
