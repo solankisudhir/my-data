@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <style>
+        div{
+            width: 700px;
+
+        }
+        #box3{
+            background-color: aqua;
+        }
+        #box4{
+            background-color: rgb(190, 190, 220);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>clone method</h1>
+    
+    <div id="box3">
+        <h1>clone method-1</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam pariatur quae architecto dolores vel mollitia itaque repudiandae, praesentium quasi illum ut. Architecto velit nostrum voluptate! Fugiat amet voluptatibus blanditiis.</p>
+
+        <h2>clone-2</h2>
+    </div>
+    <div id="box4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam architecto quis cupiditate deserunt non quos, eligendi id ratione quas velit magni aliquid? Quas explicabo velit minus deleniti tenetur minima.</p>
+
+    </div>
+    <button id="clone">clone method</button>
+    <script>
+     $(document).ready(function(){
+        $('#clone').click(function(){
+            $('#box3').clone().appendTo('#box4')
+        })
+     })
+  
+    </script>
+    
+</body>
+</html>
