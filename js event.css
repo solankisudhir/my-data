@@ -1,0 +1,20 @@
+.box{
+    text-align: center;
+    border: 2px solid;
+    width: 500px;
+    margin: auto;
+}
+.box h2{
+    font-size: 60px;
+}
+.box p{
+    font-size: 20px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(14, 85, 85, 0.71);
+    border-radius: 10px;
+}
