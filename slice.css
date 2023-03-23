@@ -1,0 +1,14 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+    margin: auto;
+}
+.box h2{
+    font-size: 30px;
+    text-align: center;
+}
+.box p{
+    width: 90%;
+    margin: auto;
+}

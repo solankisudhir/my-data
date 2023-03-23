@@ -1,0 +1,11 @@
+let a = ["sudhir", "zankan", "vimal","Naresh"];
+    // b = ["Naresh","jay","kush"];
+    // c = a.concat(b);
+    // console.log(c);
+    // d = c.join("///");
+    // console.log(d);
+    console.log(a);
+    b = a.slice(1,4);
+    console.log(b);
+    c = a.slice(1,4,"Mayur","Kush");
+    console.log(c);
